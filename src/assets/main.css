@@ -1,0 +1,83 @@
+@import url('https://api.fontshare.com/v2/css?f[]=general-sans@400,500,600,700&display=swap');
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --navy: #0B1D3A;
+  --navy-mid: #152D5C;
+  --navy-light: #1E3F7A;
+  --slate: #4A5568;
+  --slate-light: #718096;
+  --silver: #CBD5E0;
+  --cloud: #EDF2F7;
+  --white: #FFFFFF;
+  --accent: #2563EB;
+  --accent-soft: #EBF2FF;
+  --gold: #C9A84C;
+  --wa: #25D366;
+  --font: 'General Sans', sans-serif;
+  --ease: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font);
+  background: var(--white);
+  color: var(--navy);
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+section {
+  padding: 6rem 5%;
+}
+
+@media (max-width: 768px) {
+  section {
+    padding: 4rem 6%;
+  }
+}
+
+.section-tag {
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--accent);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 0.75rem;
+}
+
+.section-title {
+  font-size: clamp(2.125rem, 3.5vw, 3rem);
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  color: var(--navy);
+  line-height: 1.15;
+  margin-bottom: 1rem;
+}
+
+.section-sub {
+  font-size: 1.125rem;
+  color: var(--slate);
+  line-height: 1.7;
+  max-width: 520px;
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s var(--ease), transform 0.6s var(--ease);
+}
+
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
