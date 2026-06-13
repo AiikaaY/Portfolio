@@ -3,7 +3,7 @@
     <div class="projects-header reveal">
       <span class="section-tag">Portfolio</span>
       <h2 class="section-title">Selected Projects</h2>
-      <p class="section-sub">A curated look at some client websites I've designed and built from the ground up.</p>
+      <p class="section-sub">A closer look at problems I've solved and how I solved them.</p>
     </div>
 
     <div class="projects-grid">
@@ -62,20 +62,20 @@
 const projects = [
   {
     name: 'TrueTones',
-    type: 'Business Landing Page',
+    type: 'Skincare Brand · Landing Page',
     url: 'truetones.com.ng',
     href: 'https://www.truetones.com.ng',
-    description: 'A professional business landing page designed to showcase the brand, drive customer engagement, and establish a credible online presence.',
-    tags: ['HTML', 'CSS', 'JavaScript', 'Responsive'],
+    description: 'Dr Oghosa needed a website that felt as premium as her expertise. I designed a landing page that speaks directly to her audience, communicates her specialisms clearly, and gives first-time visitors an immediate reason to book.',
+    tags: ['Landing Page', 'Brand Identity'],
     live: true,
   },
   {
     name: 'RideWithCruz',
-    type: 'Transport Service Website',
+    type: 'Mobility Startup · Full Website',
     url: 'ridewithcruz.com',
     href: 'https://www.ridewithcruz.com',
-    description: 'A clean, conversion-focused website for a ride-booking service — built to establish trust, present services clearly, and drive bookings.',
-    tags: ['HTML', 'CSS', 'JavaScript', 'Responsive'],
+    description: 'Cruz is redefining urban mobility in Nigeria but needed a web presence that matched that ambition. I built a multi-page website covering passengers, drivers, and rentals, designed to build trust and drive both app downloads and driver sign-ups.',
+    tags: ['Website Design', 'Mobile UI'],
     live: true,
   },
 ]

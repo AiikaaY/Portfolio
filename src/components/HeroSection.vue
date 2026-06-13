@@ -1,7 +1,7 @@
 <template>
   <section class="hero" id="home">
     <div class="hero-left">
-      <div class="hero-badge">Frontend Developer</div>
+      <!-- <div class="hero-badge">Frontend Developer</div> -->
       <h1>Building interfaces that <em>work</em> and impress.</h1>
       <p class="hero-desc">
         Businesses don't just need a website. They need one that works. I build clean, 
@@ -61,13 +61,13 @@
       <div class="hero-card">
         <div class="card-avatar">OB</div>
         <div class="card-name">Osemwegie Best</div>
-        <div class="card-role">Frontend Developer</div>
+        <div class="card-role">Designer & Developer</div>
         <div class="card-skills">
-          <span class="skill-tag">HTML & CSS</span>
-          <span class="skill-tag">JavaScript</span>
-          <span class="skill-tag">Vue.js</span>
-          <span class="skill-tag">Responsive Design</span>
-          <span class="skill-tag">UI/UX</span>
+          <span class="skill-tag">Web Design</span>
+          <span class="skill-tag">Mobile UI</span>
+          <span class="skill-tag">Brand Identity</span>
+          <span class="skill-tag">Landing pages</span>
+          <span class="skill-tag">UI/UX Consulting</span>
         </div>
         <div class="card-divider"></div>
         <div class="card-available">
