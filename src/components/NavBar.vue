@@ -24,7 +24,7 @@
     </nav>
 
     <div class="nav-mobile" :class="{ open: isOpen }">
-      <a href="#skills" @click="closeMenu">Skills</a>
+      <a href="#skills" @click="closeMenu">Services</a>
       <a href="#projects" @click="closeMenu">Projects</a>
       <a href="#contact" @click="closeMenu">Contact</a>
       <a href="#contact" class="mobile-cta" @click="closeMenu">Hire Me</a>
