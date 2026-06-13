@@ -92,6 +92,9 @@ section {
 .section-title {
   font-weight: 600;
 }
+.section-sub {
+  font-weight: 500;
+}
 
 .services-layout {
   display: grid;
@@ -135,7 +138,7 @@ section {
 
 .service-name {
   font-size: 1.1rem;
-  font-weight: 500;
+  font-weight: 600;
   color: var(--slate);
   transition: color 0.15s;
 }
@@ -149,7 +152,7 @@ section {
 }
 
 .service-arrow {
-  font-size: 18px;
+  font-size: 20px;
   color: #a0aec0;
   transition: transform 0.2s, color 0.15s;
   line-height: 1;
@@ -185,12 +188,14 @@ section {
   color: var(--slate);
   line-height: 1.7;
   margin-bottom: 1.25rem;
+  font-weight: 500;
 }
 
 .detail-tags {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
+  font-weight: 500;
 }
 
 .tag {

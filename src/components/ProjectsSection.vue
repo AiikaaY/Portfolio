@@ -88,7 +88,9 @@ section {
 .section-title{
   font-weight: 600;
 }
-
+.section-sub {
+  font-weight: 500;
+}
 .projects-header {
   margin-bottom: 3rem;
 }
@@ -191,6 +193,7 @@ section {
 .browser-tagline {
   font-size: 1rem;
   color: rgba(255,255,255,0.45);
+  font-weight: 500;
 }
 
 .coming-soon {
@@ -252,6 +255,7 @@ section {
   color: var(--slate);
   line-height: 1.65;
   margin-bottom: 1.25rem;
+  font-weight: 500;
 }
 
 .project-tags {

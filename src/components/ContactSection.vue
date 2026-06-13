@@ -112,6 +112,9 @@ section::before {
   border-radius: 50%;
   pointer-events: none;
 }
+.section-sub {
+  font-weight: 500;
+}
 
 .contact-inner {
   display: grid;

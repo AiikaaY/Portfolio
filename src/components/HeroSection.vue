@@ -151,6 +151,7 @@ h1 em {
   line-height: 1.75;
   margin-bottom: 2rem;
   max-width: 420px;
+  font-weight: 500;
 }
 
 .hero-actions {
@@ -249,6 +250,7 @@ h1 em {
   font-size: 1rem;
   color: var(--slate-light);
   margin-top: 0.1rem;
+  font-weight: 500;
 }
 
 .hero-right {
