@@ -78,6 +78,7 @@ footer {
 .footer-copy {
   font-size: 1rem;
   color: rgba(255,255,255,0.25);
+  font-weight: 500;
 }
 
 @media (max-width: 768px) {
