@@ -1,7 +1,7 @@
 <template>
   <div class="nav-wrapper" :class="{ scrolled: isScrolled }">
     <nav>
-      <div class="nav-logo">OIB<span>.</span></div>
+      <div class="nav-logo" @click="scrollToHero" style="cursor: pointer;">OIB<span>.</span></div>
 
       <ul class="nav-links">
         <li><a href="#skills">Skills</a></li>
@@ -39,6 +39,11 @@ import { ref, onMounted, onUnmounted } from 'vue'
 
 const isScrolled = ref(false)
 const isOpen = ref(false)
+
+const scrollToHero = () => {
+  closeMenu()
+  window.scrollTo({ top: 0, behavior: 'smooth' })
+}
 
 const handleScroll = () => {
   isScrolled.value = window.scrollY > 40

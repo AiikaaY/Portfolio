@@ -381,8 +381,11 @@ h1 em {
     padding-top: 7rem;
     gap: 2rem;
   }
+  .hero-card {
+    max-width: 100%;
+  }
 
-  .hero-right { display: none; }
+  .hero-right { order: -1; }
 
   .value-props { flex-direction: column; }
 
