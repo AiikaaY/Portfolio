@@ -1,10 +1,10 @@
 <template>
   <section id="skills">
     <div class="skills-header reveal">
-      <span class="section-tag">Expertise</span>
-      <h2 class="section-title">Services I Offer</h2>
+      <span class="section-tag">Sounds Familiar?</span>
+      <h2 class="section-title">These Are The Problems I Help You Fix</h2>
       <p class="section-sub">
-        A focused set of design services built for brands and founders who care about how their product looks and feels.
+       You have a real business. A real product. A real service. But something about your online presence isn't reflecting that. Here's where I come in.
       </p>
     </div>
 
@@ -50,31 +50,31 @@ const services = [
   {
     name: 'Website Design',
     // icon: '🌐',
-    desc: 'Multi-page marketing or product websites built to communicate clearly and convert. From information architecture to polished visuals and developer handoff.',
+    desc: 'You have put in the work to build something real. Your business deserves a website that shows that. One that makes the right people stop, trust you instantly, and reach out without second guessing.',
     tags: ['Marketing sites', 'Product pages', 'Figma handoff']
   },
   {
     name: 'Landing Page Design',
     // icon: '🚀',
-    desc: "Single-page experiences built to convert — whether that's a product launch, a waitlist, or a campaign. Every element earns its place.",
+    desc: "You have an offer worth paying for but nowhere online that actually sells it. People are hearing about you but when they look you up nothing is compelling them to take action. I build you a focused landing page that turns visitors into paying customers.",
     tags: ['Product launches', 'Waitlists', 'Campaign pages']
   },
   {
     name: 'App & Mobile UI',
     // icon: '📱',
-    desc: 'Intuitive interfaces for mobile and web apps. Designed around real user flows — not just pretty screens, but screens that actually work.',
+    desc: 'Your app works the way it should but the moment someone opens it they are not impressed. A poor interface makes people doubt the product regardless of how good it is. I design mobile and app interfaces that feel intuitive, polished, and worth using.',
     tags: ['iOS & Android UI', 'Web app design', 'User flows']
   },
   {
     name: 'Brand & Visual Identity',
     // icon: '🎨',
-    desc: 'Logos, colour systems, typography — the visual language that ties a brand together. Built to last and scale across every touchpoint.',
+    desc: 'When people see your business online they should immediately know what you stand for and feel something. If your visuals are inconsistent, forgettable, or just thrown together, you are losing trust before you even say a word. I create a visual identity that makes your brand look like it means business.',
     tags: ['Logo design', 'Colour & type', 'Brand guidelines']
   },
   {
     name: 'UI/UX Consulting',
     // icon: '💬',
-    desc: 'Design audits, product reviews, and strategic direction for teams who want an outside perspective on their product experience.',
+    desc: `You have something built already but it is not doing what you expected People visit and leave. They sign up but don't convert. Something in the experience is breaking the journey and you can't put your finger on it. I come in, identify exactly what is pushing people away and tell you how to fix it.`,
     tags: ['Design audits', 'Product strategy', 'UX reviews']
   }
 ]
@@ -91,9 +91,11 @@ section {
 
 .section-title {
   font-weight: 600;
+  font-size: 30px;
 }
 .section-sub {
   font-weight: 500;
+  font-size: 19px;
 }
 
 .services-layout {

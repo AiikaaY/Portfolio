@@ -87,6 +87,7 @@ section {
 }
 .section-title{
   font-weight: 600;
+  font-size: 30px;
 }
 .section-sub {
   font-weight: 500;

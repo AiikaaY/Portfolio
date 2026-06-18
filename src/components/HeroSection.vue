@@ -2,11 +2,10 @@
   <section class="hero" id="home">
     <div class="hero-left">
       <!-- <div class="hero-badge">Frontend Developer</div> -->
-      <h1>Building interfaces that <em>work</em> and impress.</h1>
+      <h1>Your website should be your best<em> salesperson</em>. Let's make it one.</h1>
       <p class="hero-desc">
-        Businesses don't just need a website. They need one that works. I build clean, 
-        high-performance web experiences that help businesses across the world look credible, 
-        convert visitors, and compete at the highest level.
+        If your website isn't bringing in clients, building trust, or reflecting how serious your business is, it is costing you more than you think. 
+        I design and build websites that work as hard as you do.
       </p>
       <div class="hero-actions">
         <a href="#projects" class="btn-primary">
@@ -18,7 +17,7 @@
         <a href="#contact" class="btn-outline">Get In Touch</a>
       </div>
 
-      <div class="value-props">
+      <!-- <div class="value-props">
         <div class="vp-item">
           <div class="vp-icon">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
@@ -54,12 +53,12 @@
             <div class="vp-sub">Maintainable & scalable</div>
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
 
     <div class="hero-right">
       <div class="hero-card">
-        <div class="card-avatar">OB</div>
+        <!-- <div class="card-avatar">OB</div> -->
         <div class="card-name">Osemwegie Best</div>
         <div class="card-role">Designer & Developer</div>
         <div class="card-skills">

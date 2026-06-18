@@ -22,7 +22,7 @@
             </div>
           </a>
 
-          <a href="https://wa.me/2348157741603" target="_blank" rel="noopener noreferrer" class="contact-method">
+          <!-- <a href="https://wa.me/2348157741603" target="_blank" rel="noopener noreferrer" class="contact-method">
             <div class="contact-icon wa-icon">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
                 <path d="M12 2C6.477 2 2 6.477 2 12c0 1.89.525 3.66 1.438 5.168L2 22l4.979-1.406A9.953 9.953 0 0012 22c5.523 0 10-4.477 10-10S17.523 2 12 2z"/>
@@ -33,7 +33,7 @@
               <div class="cm-label">WhatsApp</div>
               <div class="cm-value wa-value">+234 815 774 1603</div>
             </div>
-          </a>
+          </a> -->
 
           <div class="contact-method static">
             <div class="contact-icon">
@@ -127,7 +127,7 @@ section::before {
 
 .contact-left :deep(.section-tag) { color: var(--gold); }
 .section-tag { color: var(--gold); display: inline-block; font-size: 1rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 0.75rem; }
-.section-title { font-size: clamp(2.125rem, 3.5vw, 3rem); font-weight: 600; letter-spacing: -0.025em; color: var(--white); line-height: 1.15; margin-bottom: 1rem; }
+.section-title { font-size: clamp(1.925rem, 3.5vw, 3rem); font-weight: 600; letter-spacing: -0.025em; color: var(--white); line-height: 1.15; margin-bottom: 1rem; }
 .section-sub { font-size: 1.125rem; color: rgba(255,255,255,0.6); line-height: 1.7; max-width: 380px; }
 
 .contact-methods {
