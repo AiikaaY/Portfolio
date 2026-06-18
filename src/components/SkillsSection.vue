@@ -1,8 +1,8 @@
 <template>
   <section id="skills">
     <div class="skills-header reveal">
-      <span class="section-tag">Sounds Familiar?</span>
-      <h2 class="section-title">These Are The Problems I Help You Fix</h2>
+      <span class="section-tag">the problem</span>
+      <h2 class="section-title">Your Website Is Costing You Clients And You Do Not Even Know It.</h2>
       <p class="section-sub">
        You have a real business. A real product. A real service. But something about your online presence isn't reflecting that. Here's where I come in.
       </p>
@@ -91,7 +91,7 @@ section {
 
 .section-title {
   font-weight: 600;
-  font-size: 30px;
+  font-size: 26px;
 }
 .section-sub {
   font-weight: 500;
