@@ -4,7 +4,7 @@
       <div class="nav-logo" @click="scrollToHero" style="cursor: pointer;">OIB<span>.</span></div>
 
       <ul class="nav-links">
-        <li><a href="#skills">Skills</a></li>
+        <li><a href="#skills">Services</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#contact">Contact</a></li>
         <li><a href="#contact" class="nav-cta">Hire Me</a></li>
