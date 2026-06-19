@@ -83,11 +83,11 @@
 
 <style scoped>
 .hero {
-  min-height: 100vh;
+  min-height: auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
-  padding: 8rem 5% 5rem;
+  padding: 8rem 5% 3rem;
   gap: 4rem;
   position: relative;
   overflow: hidden;
@@ -379,8 +379,8 @@ h1 em {
 @media (max-width: 768px) {
   .hero {
     grid-template-columns: 1fr;
-    padding-top: 7rem;
-    gap: 2rem;
+    padding-top: 6rem;
+    gap: 1.5rem;
   }
   .hero-card {
     max-width: 100%;
